@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Earnings and Rewards Styles */
+#earnings-rewards {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.earnings, .bonuses, .rewards {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button#redeem-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#redeem-button:hover {
+    background-color: #005eaa;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}

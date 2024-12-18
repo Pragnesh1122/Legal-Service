@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    body{
+      background: #f2efef;
+    }
+    input{
+      border : 0px solid black ;
+      /* border-bottom :  3px dashed red !important;; */
+           width : auto;
+           height:45px;
+           padding: 9.5px 10px!important;
+             font-size: .8rem;
+               color:#fff;
+                   text-transform: uppercase;
+         box-shadow: inset 0 0 10px rgba(0,0,0,.2);
+           transition:.3s ease all;
+           outline:none;
+           position: relative;
+      /* top :-10px;
+           left: 10px; */
+
+    }
+  </style>
+</head>
+<body>
+<div class="container my-3">
+    <form action="signup.php" method="POST">
+      <h3 style="text-align: center;">Advocate Registration Form</h3>
+      <div class="form-outline">
+        <label class="form-label" for="typePhone">Name(as per Certificate)</label>
+        <input type="tel" id="typePhone" class="form-control" name="name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="Aadhar" class="form-label">Adovocate Enrollment No:</label>
+        <input type="tel" class="form-control" name="Advocate" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+        <label for="Aadhar" class="form-label">Upload LLb certificate</label>
+        <input type="file" class="form-control" name="caertificate" id="exampleInputPassword1">
+      </div>
+     
+     
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div>
+        <button type="submit" class="btn" style="background-color:rgb(163,163,163);">Submit</button>
+        <button type="reset" class="btn" style="background-color:rgb(163,163,163);">Reset</button>
+      </div>
+    </form>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

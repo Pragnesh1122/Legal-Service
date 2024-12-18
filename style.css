@@ -1,0 +1,32 @@
+html {   height: 100%;   width: 100%; 
+} ul { 
+
+display: flex; justify-content: flex-start; flex-wrap: wrap; font-family: Arial, Helvetica, sans-serif; color: #687074; list-style-type: none; 
+} ul li { 
+padding: 10px 30px 20px 10px; border: 1px solid #687074; margin: 5px; font-size: 14px; font-weight: bold; 
+} 
+.ldce-home { background-color: rgba(128, 128, 128, 0); justify-content: center; 
+} 
+.img-ld { padding-left: 2px; 
+} 
+.img-ld img { margin-top: 20px; margin-right: 190px; margin-left: 30px; 
+} 
+.nav-tabs { padding-left: -16px; 
+} 
+.carousel { padding: 10px 30px 20px 1px; display: flex; overflow: hidden; width: 1320px; 
+/* Adjust the width as needed */ height: 530px; 
+} 
+.carousel img { width: 100%; height: auto; align-items: center; 
+} 
+.nav-button-left { font-size: 50px; cursor: pointer; position: relative; margin: auto; top: -
+300px; left: 44px; color: grey; border: 2px solid black; 
+} 
+.nav-button-right { font-size: 50px; cursor: pointer; position: relative; margin: auto; top: -
+300px; left: 1171px; color: grey; border: 2px solid black; 
+} 
+.nav-button:hover { color: blue; 
+} a { color: black; 
+} 
+a:hover { color: white; 
+} ul li:hover { background-color: rgb(29, 29, 211); color: white; 
+} 
